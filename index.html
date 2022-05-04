@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>ken_ES6 </h1>
 
 
     "------"
-    <script src="main.js"></script>
+    <!-- <script src="main.js"></script> -->
     <script>
+
+
+
+
+
 
         // function balancedParens(string){
         //     return !string.split('').reduce(function(previous,current){
@@ -25,6 +32,92 @@
         // }
 
         // console.log(balancedParens("()"));
+
+        // ==========================================
+        // ==========================================
+
+        // var trips = [
+        //     { distance: 34 }, 
+        //     { distance: 12 }, 
+        //     { distance: 1 }
+        // ];
+        // var sum = 0;
+
+        // // for (var i = 0; i < trips.length; i++){
+        // //     console.log(trips[i].distance)
+        // //     sum += trips[i].distance;
+
+        // //     console.log(sum);
+        // // }
+
+        // var totalDistance = trips.reduce((pre,cur)=>{
+        //     console.log(cur.distance);
+        //     return pre + cur.distance;
+        // },0);
+
+        // console.log(totalDistance);
+
+        // ==========================================
+        // ===========================================
+
+        // var desks = [
+        //         { type: 'sitting' },
+        //         { type: 'standing' },
+        //         { type: 'sitting' },
+        //         { type: 'sitting' },
+        //         { type: 'standing' }
+        //     ];
+
+        //     // var deskTypes = desks.reduce(function (pre,cur) {
+        //     //     // console.log(pre);
+        //     //     // console.log(cur.type);
+
+        //     //     if(cur.type === 'sitting'){return {sitting: pre.sitting +1 ,standing: pre.standing}}
+        //     //     if(cur.type === 'standing'){return {sitting: pre.sitting , standing: pre.standing +1 };}
+
+
+        //     // }, { sitting: 0, standing: 0 });
+
+        //     const callback = (obj, desk) => {
+
+        //             console.log(desk.type);
+        //             console.log(obj[desk.type]);
+        //             obj[desk.type]++
+
+        //             console.log(obj)
+        //             return obj
+
+        //         }
+
+        //     const deskTypes = desks.reduce(callback, { sitting: 0, standing: 0 });
+
+
+        //     console.log(deskTypes);
+
+
+        // ================================================
+        // ================================================
+
+        let a1 = [5, 12, 8, 130, 44];
+        let arry2 = [];
+
+
+         a1.reduce((pre, cur) => {
+            console.log(cur)
+            if (cur > 10) { return a1.push(cur) }
+            console.log(arry2);
+        }, []);
+
+
+        console.log(a1);
+
+
+// ==============================================
+// ==============================================
+
+
+
     </script>
 </body>
+
 </html>
